@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+span.name_light{
+    color: #FFA500;
+}
+.halp_width{
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+    padding-left: 5%;
+}
+
+.halp_width img{
+    width: 100%;
+}
+.b_image{
+    background-image: url("./img/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+
+
+.btn{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 5px;
+    padding: 10px 36px;
+    line-height: 4;
+    font-weight: 700;
+    color: #ffffff;
+}
