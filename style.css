@@ -8,19 +8,26 @@ body{
 h1{
     font-size: 40px;
 }
-span.name_light{
+p{
+    color:#696969;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.orange_light{
     color: #FFA500;
 }
 .halp_width{
     width: 40%;
     float: left;
-    margin-right: 5%;
-    padding-left: 5%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.halp_width img{
+    max-width: 100%;
 }
 
-.halp_width img{
-    width: 100%;
-}
+
 .b_image{
     background-image: url("./img/top-banner.png");
     background-repeat: no-repeat;
@@ -38,4 +45,40 @@ section{
     line-height: 4;
     font-weight: 700;
     color: #ffffff;
+}
+.dream-area{
+    background-image: url("./img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box_area{
+    box-shadow: 10px 10px 40px gray;
+    height: 70%;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+.expr_area{
+    background-image: url("./img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 95px;
+}
+.expr_area h1{
+    margin-bottom: 20px;
+}
+#web_dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,rgb(247, 43, 7));
+    border-image-slice: 1;
+}
+#skill_dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+.foot_section p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
 }
